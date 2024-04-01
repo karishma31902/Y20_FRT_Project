@@ -29,8 +29,13 @@ For creating the Question and Answer pairs, QnA Maker was employed and integrate
 Project Link: https://gentle-rock-09e63c010.5.azurestaticapps.net
 
 # Sample images of the project :
-![Web capture_1-4-2024_16580_copilotstudio microsoft com](https://github.com/karishma31902/Y20_FRT_Project/assets/121472232/a74d69ea-1484-4463-ab21-cd56acb3eb1f)
-![Screenshot (89)](https://github.com/karishma31902/Y20_FRT_Project/assets/121472232/256ea4b1-30e9-4207-9865-4ec67ee6c495)
-![Screenshot (88)](https://github.com/karishma31902/Y20_FRT_Project/assets/121472232/ce810877-b3dc-46d0-bb64-40fb72750ee2)
-![Screenshot (87)](https://github.com/karishma31902/Y20_FRT_Project/assets/121472232/90e5ae22-ffeb-4d71-9d61-4d9aa987d19b)
-![Screenshot (86)](https://github.com/karishma31902/Y20_FRT_Project/assets/121472232/ab4f1361-439f-4f89-b245-6681c7203364)
+
+![Screenshot (94)](https://github.com/karishma31902/Y20_FRT_Project/assets/121472232/03e5fbdc-9b53-4150-9d4a-528bf78e4abc)
+![Screenshot (93)](https://github.com/karishma31902/Y20_FRT_Project/assets/121472232/707313fe-0ff8-4b64-a0c0-9c0b71d5b12b)
+![Screenshot (92)](https://github.com/karishma31902/Y20_FRT_Project/assets/121472232/92d6aace-ff9c-4096-8372-2042251e9f9e)
+![Screenshot (91)](https://github.com/karishma31902/Y20_FRT_Project/assets/121472232/749ed8a0-2d76-47ed-ab8b-1de647fc3658)
+
+Result: 
+![Web capture_1-4-2024_16580_copilotstudio microsoft com](https://github.com/karishma31902/Y20_FRT_Project/assets/121472232/e4dc89e5-9f01-40a7-9d22-87deeeb2dfa1)
+
+
