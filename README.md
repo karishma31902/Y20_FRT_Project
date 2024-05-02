@@ -1,41 +1,42 @@
-# Lifestyle Assistant 🌟🧘‍♂️:
+# Lifestyle Assistant 🌟👜
 
-This project aims to provide users with personalized lifestyle recommendations and tips to enhance their well-being.
+This project is a Lifestyle Assistant, designed to offer users guidance and information on various lifestyle-related topics and destinations.
 
+## Azure services used in this project:
+1. QnA Maker(Microsoft copilot Studio)
+2. Static Web Apps
+3. Azure Bot Service
 
-# Azure services used in this project
+### QnA Maker Integration:
+For creating Question and Answer pairs, I employed QnA Maker within Microsoft copilot Studio. This allowed for efficient generation of responses to user inquiries.Microsoft copilot Studio was seamlessly integrated with Azure Bot Service, enhancing the functionality of the lifestyle assistant.
 
-1)QnA maker 2)Static webapps 3)Azure Bot Service
+### Static Web Apps Hosting:
+In terms of hosting, I utilized Static Web Apps within Azure. Azure Static Web Apps simplifies the deployment of full stack web applications, automatically building and deploying code from a repository.
 
-For creating Question and Answer pair, I have used QnAMaker. I integreted QnAMAker with Web App bot. Then for hosting I have used Static Web App Service. Azure Static Web Apps is a service that automatically builds and deploys full stack web apps to Azure from a code repository.
+#### Key Features of Azure Static Web Apps:
+1. **Web hosting for static content:** HTML, CSS, JavaScript, and images are all supported, providing a robust platform for the lifestyle assistant's interface.
+2. **Integrated API support:** Azure Functions seamlessly integrate with Static Web Apps, enabling additional functionality and data retrieval.
+3. **GitHub and Azure DevOps integration:** Changes to the repository trigger automated builds and deployments, streamlining the development process.
+4. **Global distribution:** Content is distributed globally, ensuring optimal performance for users worldwide.
+5. **Free SSL certificates:** SSL certificates are automatically provided and renewed, prioritizing security for users interacting with the lifestyle assistant.
+6. **Custom domains:** Custom domains can be easily configured, allowing for branded customization of the assistant's interface and enhancing its professional appearance.
 
-# Implementation Details: 
+With these services and features, the Lifestyle Assistant project aims to provide users with an intuitive and informative experience, offering insights and recommendations to enhance their lifestyle choices and travel experiences.
 
-For creating the Question and Answer pairs, QnA Maker was employed and integrated with the Web App bot. Hosting was facilitated through the Static Web App Service, which automates the building and deployment process from a code repository.
-
-# Key Features of Azure Static Web Apps:
-1.Web hosting for static content such as HTML, CSS, JavaScript, and images.
-
-2.Integrated API support via Azure Functions, enabling additional functionality.
-
-3.GitHub and Azure DevOps integration for streamlined development workflows.
-
-4.Global content distribution for improved performance.
-
-5.Free SSL certificates for enhanced security.
-
-6.Custom domains for branding and customization.
 
 Project Link: https://gentle-rock-09e63c010.5.azurestaticapps.net
 
 # Sample images of the project :
 
-![Screenshot (94)](https://github.com/karishma31902/Y20_FRT_Project/assets/121472232/03e5fbdc-9b53-4150-9d4a-528bf78e4abc)
-![Screenshot (93)](https://github.com/karishma31902/Y20_FRT_Project/assets/121472232/707313fe-0ff8-4b64-a0c0-9c0b71d5b12b)
-![Screenshot (92)](https://github.com/karishma31902/Y20_FRT_Project/assets/121472232/92d6aace-ff9c-4096-8372-2042251e9f9e)
-![Screenshot (91)](https://github.com/karishma31902/Y20_FRT_Project/assets/121472232/749ed8a0-2d76-47ed-ab8b-1de647fc3658)
+![1](https://github.com/karishma31902/Y20_FRT_Project/assets/121472232/e10e57c7-ec86-45ac-acc4-57d50e8adea5)
+![2](https://github.com/karishma31902/Y20_FRT_Project/assets/121472232/fd18663a-6746-438c-9bc6-67785611c765)
+![3](https://github.com/karishma31902/Y20_FRT_Project/assets/121472232/947c2f49-049d-42a8-bb08-36c7fc592d97)
+![4](https://github.com/karishma31902/Y20_FRT_Project/assets/121472232/c10a7667-3a8f-4ed4-8f88-8ef60b044c8e)
+![5](https://github.com/karishma31902/Y20_FRT_Project/assets/121472232/ef777877-46f7-4427-923a-2d387342bd1f)
+![6](https://github.com/karishma31902/Y20_FRT_Project/assets/121472232/2e4ad616-aaec-404b-8ce0-740343ee54b1)
+
 
 Result: 
-![Web capture_1-4-2024_16580_copilotstudio microsoft com](https://github.com/karishma31902/Y20_FRT_Project/assets/121472232/e4dc89e5-9f01-40a7-9d22-87deeeb2dfa1)
 
+![7](https://github.com/karishma31902/Y20_FRT_Project/assets/121472232/b85cbbb1-dd22-432c-90e5-4a203e27aab5)
 
