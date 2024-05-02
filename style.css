@@ -1,236 +1,265 @@
 *{
     margin: 0;
-    box-sizing: border-box;
     padding: 0;
 }
-.header{
-    height: 100vh;
-    overflow: hidden;
-}
-.bg-vid{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    min-height: 100%;
-    min-width: 100%;
-}
-.menu { 
-    padding:20px;
-    background: rgba(4, 7, 186, 0.986);
-    position: absolute;
+
+.main{
     width: 100%;
-    top: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
 }
-.menu ul li{
-    float: right;
-    list-style: none;
-    letter-spacing: 2px;
-    font-size: 23px;
-    color: rgba(255, 255, 255, 0.068);
-    padding:1px 20px;
-    transition-property: transform .15s;
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
 }
-.menu ul li .dropdown-content{
-    display:none;
-    position: absolute;
-    background-color:rgba(0, 0, 0,0.1);
-    padding: 10px;
-    border-radius: 0 0 4px 6px;
-}
-.menu ul li:hover{
-    color: rgb(232, 127, 255);
-    transform :scale(1.1); 
-}
-.menu ul li:hover .dropdown-content{
-    display: block;
-    cursor: pointer;
-}
-.menu ul li .dropdown-content li{
+
+.icon{
+    width: 200px;
     float: left;
-    padding: 8px 12px;
-    width:120px;
+    height: 70px;
 }
-.menu ul li .dropdown-content li:hover{
-    background-color: whitesmoke;
-    color: tomato;
-    transform :scale(1.0);
+
+.logo{
+    color: rgb(14, 228, 146);
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px
 }
-.menu ul li .dropdown-content li a{
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
     text-decoration: none;
-}
-.menu ul li .dropdown-content li a:hover{
-    color: black;
-}
-header .menu a{
-    text-decoration: none;
-    color: white;
-}
-.main-content{
-    position: absolute;
-    top: 50%;
-    right: 2%;
-    font-weight: bolder;
-    color:rgb(31, 5, 79);
-}
-.main-content .top{
-    font-size: 70px;
-}
-.main-content h2{
-    font-size: 30px;
-}
-.btn{
-    padding: 10px;
-    border-radius: 15px;
-    border-color: transparent;
-    margin-top: 30px;
-    font-size: 20px;
+    color: #fff;
+    font-family: Arial;
     font-weight: bold;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    background-color: white;
-    position: absolute;
-    left:15%;
-    transition-property:transform  .15s;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #ff7200;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
 }
 .btn:hover{
-    background-color: rgb(255, 206, 167);
+    color: #000;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
     cursor: pointer;
-    transform :scale(1.1);
+    transition: .4s ease;
+    
 }
-.btn a{
+
+.content .cn a{
     text-decoration: none;
-    color: black;
+    color: #000;
+    transition: .3s ease;
 }
 
-@media screen and (max-width:767px){
-body{
-    font-size: 2rem;
-    background-image: url("https://www.hotellinksolutions.com/images/blog/featured1.jpeg");
-    background-repeat: repeat;
-    background-size: fill;
-}
-.bg-vid{
-    display: none;
-}
-.menu ul li{
-    float: left;
-}
-header .menu a {
-    color: white;
+.cn:hover{
+    background-color: #fff;
 }
 
-.main-content{
-    color: black;
-}
-.main-content{
-    top:60%;
-}
-.main-content .top{
-    color: rgb(68, 67, 68);
-}
-.home{
-    display: none;
-}
+.content span{
+    color: #a96025;
+    font-size: 65px
 }
 
-* {box-sizing:border-box}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    transform: translate(0%,-5%);
+    border-radius: 10px;
+    padding: 25px;
 }
 
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-.brand-title{
-    padding: auto;
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
     text-align: center;
-    text-align-last: center;
-    color: rgb(3, 127, 210);
+    color: #27f702;
+    font-size: 22px;
+    background-color: #cf0404;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+.btnn:hover{
+    background: #fff;
+    color: #84ff00;
+}
+.btnn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: #0084ff;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.icons a{
+    text-decoration: none;
+    color: #fff;
+}
+.icons ion-icon{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+    color: #ff7200;
 }
